@@ -18,9 +18,9 @@ const Navbar = () => {
   <div class="flex-none pt-2 pr-6">
     <ul class="menu menu-horizontal p-0">
       <li><Link to="/">Home</Link></li>
-      <li><Link to="/">About</Link></li>
+      <li><Link to="/about">About</Link></li>
       <li><Link to="/services">Service</Link></li>
-      <li><Link to="/">Contact</Link></li>
+      <li><Link to="/contact">Contact</Link></li>
       <button id='btn' className= 'btn font-medium text-white px-6 uppercase'>
                 Request Quote</button>
     </ul>

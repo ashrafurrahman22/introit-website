@@ -3,12 +3,13 @@ import Card from "../Home/Card";
 import OurCustomer from "../Home/OurCustomer";
 import Project from "../Home/Project";
 import Review from "../Home/Review";
-import Nav from "./Nav";
+import ServiceNav from "./ServiceNav";
+import Nav from "./ServiceNav";
 
 const Services = () => {
   return (
     <div>
-        <Nav></Nav>
+      <ServiceNav></ServiceNav>
         <div  style={{backgroundColor:"#eff2ff"}} className="p-20">
         <Card></Card>
         </div>
