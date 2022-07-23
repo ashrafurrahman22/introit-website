@@ -1,12 +1,20 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Help from './Pages/Home/Help';
 import Home from './Pages/Home/Home';
 import Footer from './Pages/Shared/Footer/Footer';
+import Navbar from './Pages/Shared/Header/Navbar';
 
 function App() {
   return (
-    <div>
-      <Home></Home>
+    <div> 
+
+      <Navbar></Navbar>
+
+      <Routes>
+          <Route path='/' element={<Home></Home>}></Route>
+
+      </Routes>
+
       <Footer></Footer>
     </div>
   );
