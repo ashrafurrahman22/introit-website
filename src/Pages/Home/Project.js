@@ -14,8 +14,8 @@ const Project = () => {
 
 
          <div>
-          <h2 style={{fontFamily:"raleway", color:"#22A55A"}} class="card-title text-3xl">Would you like to start a project with us?</h2>
-          <p style={{fontFamily:"aleo", fontSize:"20px"}}>Thank you for your interest in working with us! We are always looking for <br /> talented and ambitious individuals to join our team. If you are interested in <br /> starting a project with us, please fill out the form below. We will review your <br /> submission and get back to you as soon as possible.</p>
+          <h2 style={{fontFamily:"raleway", color:"#22A55A"}} class="card-title text-3xl my-5">Would you like to start a project with us?</h2>
+          <p style={{fontFamily:"aleo", fontSize:"18px"}}>Thank you for your interest in working with us! We are always looking for <br /> talented and ambitious individuals to join our team. If you are interested in <br /> starting a project with us, please fill out the form below. We will review your <br /> submission and get back to you as soon as possible.</p>
           </div>
 
           <div className='flex justify-center my-10'>
