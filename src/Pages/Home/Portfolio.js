@@ -3,6 +3,7 @@ import img1 from '../../assets/portfolio1-300x300.jpg';
 import img2 from '../../assets/portfolio2-300x300.jpg';
 import img3 from '../../assets/portfolio3-300x300.jpg';
 import img4 from '../../assets/portfolio4-1-300x300.jpg';
+import '../Styles/Portfolio.css'
 
 const Portfolio = () => {
     return (
@@ -25,7 +26,7 @@ const Portfolio = () => {
         </div>
 
         <div className='flex justify-center my-10'>
-            <button style={{fontFamily:"Aleo", letterSpacing:"0px", backgroundColor:"#7AD0A7"}} className='btn btn-info text-white font-normal px-14 py-2 text-xl'>Explore More</button>
+            <button id='btn' className= 'btn font-medium text-white px-8 py-2'>Explore More</button>
         </div>
 
         </div>
