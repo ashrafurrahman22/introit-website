@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from '../Shared/Header/Navbar';
 import Card from './Card';
 import Help from './Help';
 import Leadership from './Leadership';
@@ -10,6 +11,7 @@ import Review from './Review';
 const Home = () => {
     return (
         <div>
+            <Navbar></Navbar>
             <div style={{backgroundColor:'#eff2ff'}} className="p-5">
             <Help></Help>
             <Card></Card>
