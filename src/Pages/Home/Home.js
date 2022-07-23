@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from './Card';
 import Help from './Help';
+import Portfolio from './Portfolio';
 
 const Home = () => {
     return (
@@ -9,6 +10,8 @@ const Home = () => {
             <Help></Help>
             <Card></Card>
             </div>
+
+            <Portfolio></Portfolio>
         </div>
     );
 };
