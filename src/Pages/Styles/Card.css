@@ -1,3 +1,11 @@
+
+
 #card:hover {
     background-color: #D7e5e9;
+}
+
+@media only screen and (max-width:576px) {
+    #card {
+        margin: 20px;
+    }
 }

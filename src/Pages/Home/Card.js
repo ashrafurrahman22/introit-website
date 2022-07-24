@@ -48,7 +48,7 @@ const Card = () => {
     {/* second one */}
 
 
-       <div className="lg:flex justify-center items-center lg:gap-5 lg:my-8">
+       <div className="lg:flex justify-center items-center gap-5 lg:my-8">
 
             {/* first card */}
       <div id="card" class="card lg:w-96 bg-base-100 lg:my-0 shadow-xl">

@@ -9,7 +9,6 @@
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,0.8);
-    /* background-color: #30B2DA; */
     background-image: url('../../assets/Best-Web-Development-Company-in-Bangladesh.jpg');
     background-blend-mode: darken;
     background-size: cover;
@@ -17,5 +16,11 @@
 }
 
 @media only screen and (max-width:576px) {
-     
+     #nav {
+        width: 100%;
+        height: 50%;
+        background-image: url('../../assets/Best-Web-Development-Company-in-Bangladesh.jpg');
+        background-blend-mode: darken;
+        background-size: cover;
+     }
 }
