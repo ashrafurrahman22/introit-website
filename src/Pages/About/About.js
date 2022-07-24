@@ -3,6 +3,7 @@ import Project from "../Home/Project";
 import AboutCard from "./AboutCard";
 import AboutNav from "./AboutNav";
 import AboutReview from "./AboutReview";
+import Summary from "./Summary";
 
 const About = () => {
   return (
@@ -14,6 +15,10 @@ const About = () => {
       </div>
 
       <AboutReview></AboutReview>
+
+      <div className="my-16">
+        <Summary></Summary>
+      </div>
 
       <div className="my-16">
         <Project></Project>
