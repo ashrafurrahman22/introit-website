@@ -6,7 +6,7 @@ import aboutimg from "../../assets/about/Intro-IT-about.png";
 const AboutReview = () => {
   return (
     <div className="px-12 ">
-      <div className="flex justify-center items-center gap-16">
+      <div className="lg:flex justify-center items-center gap-16">
         <div style={{ backgroundColor: "black" }} className="rounded-xl">
           <img style={{ opacity: "0.4" }} src={aboutimg} alt="" />
         </div>

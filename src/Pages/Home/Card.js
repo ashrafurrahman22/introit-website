@@ -61,17 +61,6 @@ const Card = () => {
         </div>
       </div>
 
-        {/* second card */}
-      {/* <div id="card" class="card lg:w-96 bg-base-100 shadow-xl">
-        <div class="card-body">
-            <div>
-            <FontAwesomeIcon className="text-4xl py-2 text-red-500 card-title" icon={faCreditCard}></FontAwesomeIcon>
-            </div>
-          <h2 style={{fontFamily:"raleway"}} class="card-title text-xl">E-Commerce Development</h2>
-          <p style={{fontFamily:"aleo", fontSize:"18px"}}>E-commerce development is no longer a luxury; it's a necessity. In today's digital age, customers expect to be able to purchase products and services online. If your business doesn't have an e-commerce.</p>
-        </div>
-      </div> */}
-
 
 <div id="card" class="card lg:w-96 bg-base-100 lg:my-0 shadow-xl">
         <div class="card-body">

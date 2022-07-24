@@ -10,7 +10,7 @@ const About = () => {
     <div>
       <AboutNav></AboutNav>
 
-      <div className="flex justify-center mt-[-100px] mb-16">
+      <div className="flex justify-center lg:mt-[-100px] mb-16">
         <AboutCard></AboutCard>
       </div>
 

@@ -8,7 +8,7 @@ const AboutCard = () => {
             
             {/* cards */}
 
-            <div className="flex gap-5">
+            <div className="lg:flex gap-5">
            
             {/* first card */}
       <div id="card" class="card w-96 bg-base-100 shadow-xl">
