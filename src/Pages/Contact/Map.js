@@ -4,7 +4,7 @@ import map from '../../assets/contact/F2.medium.gif'
 const Map = () => {
     return (
         <div>
-            <img className='rounded-3xl' src={map} alt="" />
+            <img className='rounded-3xl lg:w-full' src={map} alt="" />
         </div>
     );
 };

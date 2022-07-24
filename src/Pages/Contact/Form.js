@@ -3,7 +3,7 @@ import React from 'react';
 const Form = () => {
     return (
         <div style={{fontFamily:"Aleo"}} className='min-h-screeen'>
-        <div className="lg:hero p-8 rounded-lg">
+        <div className="lg:hero lg:p-8 rounded-lg">
   <div className="card w-full sm:mx-auto lg:w-full lg:max-w-sm lg:shadow-2xl bg-base-100">
     <div className="card-body">
       <div className="form-control">

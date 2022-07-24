@@ -10,7 +10,7 @@ const Contact = () => {
         <div>
             <ContactNav></ContactNav>
 
-        <div className='grid grid-cols-3 px-12 items-center my-16'>
+        <div className='lg:grid grid-cols-3 px-12 items-center my-16'>
 
         <div>
             <h2 style={{fontFamily:"Aleo", color:"#22A55A", letterSpacing:"1px"}} className='text-center text-3xl font-semibold'>Request Free Consultation</h2> 

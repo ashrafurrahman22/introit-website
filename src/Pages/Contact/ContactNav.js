@@ -39,7 +39,7 @@ const ContactNav = () => {
 
       
       
-              <div className="w-2/4 text-center mx-auto">
+              <div className="lg:w-2/4 text-center mx-auto">
                   <div className="max-w-7xl mt-28 mx-auto px-12">
                       <h1 style={{fontFamily:"Aleo", fontSize:"37px", letterSpacing:"4px"}} className="font-semibold my-4">Contact US</h1>
       
