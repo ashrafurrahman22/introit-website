@@ -9,7 +9,7 @@ const OurCustomer = () => {
     return (
         <div>
 
-             <div className='w-2/5 my-10 mx-auto font-aleo'>
+             <div className='lg:w-2/5 my-10 lg:px-0 px-3 mx-auto font-aleo'>
            <div>
            <h2 id='headings' className='my-2 font-bold'>Our Customers</h2>
             <p style={{fontFamily:"Aleo", fontSize:"18px"}} className='text-center font-medium text-md'>We are proud to serve our customers in every way possible. They are the reason we exist and we are dedicated to providing them with the best possible experience. To that end, we have compiled a list of the ten most important things our customers need to know about us.</p>

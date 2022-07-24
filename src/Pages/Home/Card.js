@@ -5,9 +5,9 @@ import '../Styles/Card.css'
 
 const Card = () => {
   return (
-    <div className="max-w-7xl mx-auto px-12">
+    <div className="max-w-7xl mx-auto lg:px-12 px-3">
 
-       <div className="lg:flex justify-center items-center gap-5">
+       <div className="lg:flex lg:justify-center lg:items-center lg:gap-5">
            
             {/* first card */}
       <div id="card" class="card lg:w-96 bg-base-100 shadow-xl">
@@ -48,10 +48,10 @@ const Card = () => {
     {/* second one */}
 
 
-       <div className="lg:flex justify-center items-center gap-5 my-8">
+       <div className="lg:flex justify-center items-center lg:gap-5 lg:my-8">
 
             {/* first card */}
-      <div id="card" class="card lg:w-96 bg-base-100 shadow-xl">
+      <div id="card" class="card lg:w-96 bg-base-100 lg:my-0 shadow-xl">
         <div class="card-body">
             <div>
             <FontAwesomeIcon className="text-4xl py-2 text-red-500 card-title" icon={faLightbulb}></FontAwesomeIcon>
@@ -62,15 +62,27 @@ const Card = () => {
       </div>
 
         {/* second card */}
-      <div id="card" class="card lg:w-96 bg-base-100 shadow-xl">
+      {/* <div id="card" class="card lg:w-96 bg-base-100 shadow-xl">
         <div class="card-body">
             <div>
             <FontAwesomeIcon className="text-4xl py-2 text-red-500 card-title" icon={faCreditCard}></FontAwesomeIcon>
             </div>
+          <h2 style={{fontFamily:"raleway"}} class="card-title text-xl">E-Commerce Development</h2>
+          <p style={{fontFamily:"aleo", fontSize:"18px"}}>E-commerce development is no longer a luxury; it's a necessity. In today's digital age, customers expect to be able to purchase products and services online. If your business doesn't have an e-commerce.</p>
+        </div>
+      </div> */}
+
+
+<div id="card" class="card lg:w-96 bg-base-100 lg:my-0 shadow-xl">
+        <div class="card-body">
+            <div>
+            <FontAwesomeIcon className="text-3xl py-2 text-red-500 card-title" icon={faCreditCard}></FontAwesomeIcon>
+            </div>
           <h2 style={{fontFamily:"raleway"}} class="card-title text-2xl">E-Commerce Development</h2>
-          <p style={{fontFamily:"aleo", fontSize:"16px"}}>E-commerce development is no longer a luxury; it's a necessity. In today's digital age, customers expect to be able to purchase products and services online. If your business doesn't have an e-commerce.</p>
+          <p style={{fontFamily:"aleo", fontSize:"17px"}}>E-commerce development is no longer a luxury; it's a necessity. In today's digital age, customers expect to be able to purchase products and services online. If your business doesn't have an e-commerce.</p>
         </div>
       </div>
+
 
         {/* third card */}
       <div id="card" class="card lg:w-96 bg-base-100 shadow-xl">

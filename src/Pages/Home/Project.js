@@ -10,7 +10,7 @@ const Project = () => {
             <div class="card w-full bg-base-100 shadow-xl">
         <div class="card-body">
          
-         <div className='flex items-center justify-between'>
+         <div className='lg:flex items-center justify-between'>
 
 
          <div>

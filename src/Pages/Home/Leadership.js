@@ -7,7 +7,7 @@ const Leadership = () => {
     return (
         <div>
 
-             <div className='w-2/5 my-10 mx-auto font-aleo'>
+             <div className='lg:w-2/5 lg:px-0 px-4 my-10 mx-auto font-aleo'>
            <div>
            <h2 id='headings' className='my-2 font-bold'>Meet Our Leadership</h2>
             <p style={{fontFamily:"Aleo", fontSize:"18px"}} className='text-center font-medium text-md'>Thank you for choosing our company for your design needs! We take pride in our work and guarantee amazing designs and quality work. We know that your business is important to you, and we want to help you succeed. With our team of experienced designers, you can be sure that your project will be in good hands.</p>
@@ -15,7 +15,7 @@ const Leadership = () => {
         </div>
 
         {/* image */}
-        <div className="grid grid-cols-3 gap-24 max-w-7xl mx-auto px-12">
+        <div className="lg:grid grid-cols-3 gap-24 max-w-7xl mx-auto px-12">
 
         <div style={{fontFamily:"Aleo"}}>
         <img className='border rounded-xl' src={leader2} alt="" />
