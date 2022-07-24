@@ -7,10 +7,10 @@ const Card = () => {
   return (
     <div className="max-w-7xl mx-auto px-12">
 
-       <div className="flex gap-5">
+       <div className="lg:flex justify-center items-center gap-5">
            
             {/* first card */}
-      <div id="card" class="card w-96 bg-base-100 shadow-xl">
+      <div id="card" class="card lg:w-96 bg-base-100 shadow-xl">
         <div class="card-body">
             <div>
             <FontAwesomeIcon className="text-4xl py-2 text-red-500 card-title" icon={faPenToSquare}></FontAwesomeIcon>
@@ -21,7 +21,7 @@ const Card = () => {
       </div>
 
         {/* second card */}
-      <div id="card" class="card w-96 bg-base-100 shadow-xl">
+      <div id="card" class="card lg:w-96 bg-base-100 shadow-xl">
         <div class="card-body">
             <div>
             <FontAwesomeIcon className="text-4xl py-2 text-red-500 card-title" icon={faObjectUngroup}></FontAwesomeIcon>
@@ -32,7 +32,7 @@ const Card = () => {
       </div>
 
         {/* third card */}
-      <div id="card" class="card w-96 bg-base-100 shadow-xl">
+      <div id="card" class="card lg:w-96 bg-base-100 shadow-xl">
         <div class="card-body">
             <div>
             <FontAwesomeIcon className="text-4xl py-2 text-red-500 card-title" icon={faMobileScreenButton}></FontAwesomeIcon>
@@ -48,10 +48,10 @@ const Card = () => {
     {/* second one */}
 
 
-       <div className="flex gap-5 my-8">
+       <div className="lg:flex justify-center items-center gap-5 my-8">
 
             {/* first card */}
-      <div id="card" class="card w-96 bg-base-100 shadow-xl">
+      <div id="card" class="card lg:w-96 bg-base-100 shadow-xl">
         <div class="card-body">
             <div>
             <FontAwesomeIcon className="text-4xl py-2 text-red-500 card-title" icon={faLightbulb}></FontAwesomeIcon>
@@ -62,7 +62,7 @@ const Card = () => {
       </div>
 
         {/* second card */}
-      <div id="card" class="card w-96 bg-base-100 shadow-xl">
+      <div id="card" class="card lg:w-96 bg-base-100 shadow-xl">
         <div class="card-body">
             <div>
             <FontAwesomeIcon className="text-4xl py-2 text-red-500 card-title" icon={faCreditCard}></FontAwesomeIcon>
@@ -73,7 +73,7 @@ const Card = () => {
       </div>
 
         {/* third card */}
-      <div id="card" class="card w-96 bg-base-100 shadow-xl">
+      <div id="card" class="card lg:w-96 bg-base-100 shadow-xl">
         <div class="card-body">
             <div>
             <FontAwesomeIcon className="text-4xl py-2 text-red-500 card-title" icon={faUserCircle}></FontAwesomeIcon>
