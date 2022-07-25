@@ -12,7 +12,7 @@ const Home = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div style={{backgroundColor:'#eff2ff'}} className="p-5">
+            <div style={{backgroundColor:'#eff2ff'}} className="lg:p-20 p-5">
             <Help></Help>
             <Card></Card>
             </div>
