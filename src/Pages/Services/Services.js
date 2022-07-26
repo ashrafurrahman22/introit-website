@@ -18,9 +18,10 @@ const Services = () => {
         <div style={{backgroundColor:"#eff2ff", padding:"12px"}} className="my-16">
            <Review></Review>
            </div>
-
+           
+           <div className="my-16">
         <Project></Project>
-
+      </div>
     </div>
   );
 };
