@@ -27,14 +27,14 @@ const Navbar = () => {
     </Link>
   </div>
   <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-horizontal p-0">
+    <ul class="menu menu-horizontal pt-5">
     <li><Link to="/">Home</Link></li>
       <li><Link to="/about">About</Link></li>
       <li><Link to="/services">Service</Link></li>
       <li><Link to="/contact">Contact</Link></li>
     </ul>
   </div>
-  <div class="navbar-end lg:flex hidden">
+  <div class="navbar-end lg:flex hidden pt-5">
   <button id='btn' className= 'btn font-medium text-white px-6 uppercase'>
                 Request Quote</button>
   </div>

@@ -24,14 +24,14 @@ const ContactNav = () => {
     </Link>
   </div>
   <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-horizontal p-0">
+    <ul class="menu menu-horizontal pt-5">
     <li><Link to="/">Home</Link></li>
       <li><Link to="/about">About</Link></li>
       <li><Link to="/services">Service</Link></li>
       <li><Link to="/contact">Contact</Link></li>
     </ul>
   </div>
-  <div class="navbar-end lg:flex hidden">
+  <div class="navbar-end lg:flex hidden pt-5">
   <button id='btn' className= 'btn font-medium text-white px-6 uppercase'>
                 Request Quote</button>
   </div>
@@ -40,7 +40,7 @@ const ContactNav = () => {
       
       
               <div className="lg:w-2/4 text-center mx-auto">
-                  <div className="max-w-7xl mt-28 mx-auto px-12">
+                  <div id='serviceNav' className="max-w-7xl mt-28 mx-auto px-12">
                       <h1 style={{fontFamily:"Aleo", fontSize:"37px", letterSpacing:"4px"}} className="font-semibold my-4">Contact US</h1>
       
                       <p style={{fontSize:"22px", fontFamily:"Raleway"}} className="my-3">Welcome to Intro IT</p>
