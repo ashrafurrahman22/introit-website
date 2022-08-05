@@ -18,10 +18,10 @@ const Portfolio = () => {
 
         {/* image */}
         <div className="grid grid-cols-4 gap-5 max-w-7xl mx-auto px-12">
-            <img src={img1} alt="" />
-            <img src={img2} alt="" />
-            <img src={img3} alt="" />
-            <img src={img4} alt="" />
+            <img className='hover:-translate-y-1 hover:scale-110 hover:card duration-700' src={img1} alt="" />
+            <img className='hover:-translate-y-1 hover:scale-110 hover:card duration-700' src={img2} alt="" />
+            <img className='hover:-translate-y-1 hover:scale-110 hover:card duration-700' src={img3} alt="" />
+            <img className='hover:-translate-y-1 hover:scale-110 hover:card duration-700' src={img4} alt="" />
 
         </div>
 

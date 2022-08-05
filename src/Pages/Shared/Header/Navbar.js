@@ -44,7 +44,7 @@ const Navbar = () => {
 
 
         <div className="lg:grid grid-cols-2 mx-auto text-left">
-            <div className="max-w-7xl mt-28 mx-auto px-12">
+            <div id="myText" className="max-w-7xl mt-28 mx-auto px-12">
                 <h1 style={{fontFamily:"Raleway", fontSize:"26px"}} className=" font-bold lg:text-0 text-md my-4">Introit, Why [Our Company] is the Best Web Development Company in Bangladesh?</h1>
 
                 <p style={{fontSize:"18px"}} className="my-3">Intro It [Our company] is the best web development company in Bangladesh, and we have the track record to prove it. We have worked <br /> with some of the biggest names in the country, and our team of skilled developers has always been able to deliver on our promises.</p>

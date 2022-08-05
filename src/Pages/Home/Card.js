@@ -10,7 +10,7 @@ const Card = () => {
        <div className="lg:flex lg:justify-center lg:items-center lg:gap-5">
            
             {/* first card */}
-      <div id="card" class="card lg:w-96 bg-base-100 shadow-xl">
+      <div id="card" class="card lg:w-96 bg-base-100 shadow-xl hover:-translate-y-1 hover:scale-110 hover:card duration-700">
         <div class="card-body">
             <div>
             <FontAwesomeIcon className="text-4xl py-2 text-red-500 card-title" icon={faPenToSquare}></FontAwesomeIcon>
@@ -21,7 +21,7 @@ const Card = () => {
       </div>
 
         {/* second card */}
-      <div id="card" class="card lg:w-96 bg-base-100 shadow-xl">
+      <div id="card" class="card lg:w-96 hover:-translate-y-1 hover:scale-110 hover:card duration-700 bg-base-100 shadow-xl">
         <div class="card-body">
             <div>
             <FontAwesomeIcon className="text-4xl py-2 text-red-500 card-title" icon={faObjectUngroup}></FontAwesomeIcon>
@@ -32,7 +32,7 @@ const Card = () => {
       </div>
 
         {/* third card */}
-      <div id="card" class="card lg:w-96 bg-base-100 shadow-xl">
+      <div id="card" class="card lg:w-96 hover:-translate-y-1 hover:scale-110 hover:card duration-700 bg-base-100 shadow-xl">
         <div class="card-body">
             <div>
             <FontAwesomeIcon className="text-4xl py-2 text-red-500 card-title" icon={faMobileScreenButton}></FontAwesomeIcon>
@@ -51,7 +51,7 @@ const Card = () => {
        <div className="lg:flex justify-center items-center gap-5 lg:my-8">
 
             {/* first card */}
-      <div id="card" class="card lg:w-96 bg-base-100 lg:my-0 shadow-xl">
+      <div id="card" class="card lg:w-96 hover:-translate-y-1 hover:scale-110 hover:card duration-700 bg-base-100 lg:my-0 shadow-xl">
         <div class="card-body">
             <div>
             <FontAwesomeIcon className="text-4xl py-2 text-red-500 card-title" icon={faLightbulb}></FontAwesomeIcon>
@@ -62,7 +62,7 @@ const Card = () => {
       </div>
 
 
-<div id="card" class="card lg:w-96 bg-base-100 lg:my-0 shadow-xl">
+<div id="card" class="card lg:w-96 hover:-translate-y-1 hover:scale-110 hover:card duration-700 bg-base-100 lg:my-0 shadow-xl">
         <div class="card-body">
             <div>
             <FontAwesomeIcon className="text-3xl py-2 text-red-500 card-title" icon={faCreditCard}></FontAwesomeIcon>
@@ -74,7 +74,7 @@ const Card = () => {
 
 
         {/* third card */}
-      <div id="card" class="card lg:w-96 bg-base-100 shadow-xl">
+      <div id="card" class="card lg:w-96 hover:-translate-y-1 hover:scale-110 hover:card duration-700 bg-base-100 shadow-xl">
         <div class="card-body">
             <div>
             <FontAwesomeIcon className="text-4xl py-2 text-red-500 card-title" icon={faUserCircle}></FontAwesomeIcon>

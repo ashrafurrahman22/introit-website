@@ -15,6 +15,24 @@
     color: white;
 }
 
+#myText {
+    animation: slide-up 4s ease forwards;
+}
+
+@keyframes slide-up {
+    from {
+        opacity: 0.1;
+        line-height: 50px;
+    }
+    to {
+        opacity: 5;
+        line-height: 32px;
+    }
+
+}
+
+
+
 @media only screen and (max-width:576px) {
      #nav {
         width: 100%;

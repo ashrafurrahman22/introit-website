@@ -18,10 +18,10 @@ const OurCustomer = () => {
 
         {/* image */}
         <div className="grid grid-cols-4 gap-5 max-w-7xl mx-auto px-12">
-        <img className='border rounded-xl' src={logo1} alt="" />
-            <img className='border rounded-xl' src={logo2} alt="" />
-            <img className='border rounded-xl' src={logo3} alt="" />
-            <img className='border rounded-xl' src={logo4} alt="" />
+        <img className='border hover:-translate-y-1 hover:scale-110 hover:card duration-700 rounded-xl' src={logo1} alt="" />
+            <img className='border hover:-translate-y-1 hover:scale-110 hover:card duration-700 rounded-xl' src={logo2} alt="" />
+            <img className='border hover:-translate-y-1 hover:scale-110 hover:card duration-700 rounded-xl' src={logo3} alt="" />
+            <img className='border hover:-translate-y-1 hover:scale-110 hover:card duration-700 rounded-xl' src={logo4} alt="" />
 
         </div>
 
