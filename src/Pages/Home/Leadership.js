@@ -18,7 +18,7 @@ const Leadership = () => {
         <div className="lg:grid grid-cols-3 gap-24 max-w-7xl mx-auto px-12">
 
         <div style={{fontFamily:"Aleo"}}>
-        <img className='border rounded-xl' src={leader2} alt="" />
+        <img className='border rounded-xl w-2/3 mx-auto' src={leader2} alt="" />
         <div className='my-8 text-center'>
         <h2 className='text-2xl font-bold'>MR. Mokter Mojumder</h2>
         <h3 className='text-xl my-2'>Founder at CEO</h3>
@@ -26,7 +26,7 @@ const Leadership = () => {
         </div>
 
         <div style={{fontFamily:"Aleo"}}>
-        <img className='border rounded-xl' src={leader1} alt="" />
+        <img className='border rounded-xl w-2/3 mx-auto' src={leader1} alt="" />
         <div className='my-8 text-center'>
         <h2 className='text-2xl font-bold'>Rayhan Mojumder Mijan</h2>
         <h3 className='text-xl my-2'>Director HR</h3>
@@ -34,7 +34,7 @@ const Leadership = () => {
         </div>
 
         <div style={{fontFamily:"Aleo"}}>
-        <img className='border rounded-xl' src={leader3} alt="" />
+        <img className='border rounded-xl w-2/3 mx-auto' src={leader3} alt="" />
         <div className='my-8 text-center'>
         <h2 className='text-2xl font-bold'>MD. Monir Mojumder</h2>
         <h3 className='text-xl my-2'>Assistant Director</h3>

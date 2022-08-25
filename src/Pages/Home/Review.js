@@ -10,7 +10,7 @@ const Review = () => {
         </div>
 
         <div className='text-center my-3'>
-          <img className='w-20 rounded-full mx-auto' src={man} />
+          <img className='w-20 rounded-full mx-auto' src={man} alt="" />
           <h2 style={{fontFamily:"Aleo"}} className='text-xl font-bold mt-3'>Jhon Doe</h2>
           <h2 style={{fontFamily:"Aleo"}} className='text-sm font-bold my-2'>CEO, ACME INC.</h2>
 

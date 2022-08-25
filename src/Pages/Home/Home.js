@@ -1,4 +1,5 @@
 import React from 'react';
+import Summary from '../About/Summary';
 import Navbar from '../Shared/Header/Navbar';
 import Card from './Card';
 import Help from './Help';
@@ -23,7 +24,7 @@ const Home = () => {
            <div style={{backgroundColor:"#eff2ff", padding:"12px"}} className="my-16">
            <Review></Review>
            </div>
-
+            <Summary></Summary>
             <Leadership></Leadership>
            <div className='mt-16 mb-10'>
            <Project></Project>
