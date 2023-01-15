@@ -10,7 +10,7 @@ const Services = () => {
   return (
     <div>
       <ServiceNav></ServiceNav>
-        <div  style={{backgroundColor:"#eff2ff"}} className="lg:p-20 p-5">
+        <div  style={{backgroundColor:"#eff2ff"}} className="lg:px-0 p-5">
         <Card></Card>
         </div>
         <OurCustomer></OurCustomer>

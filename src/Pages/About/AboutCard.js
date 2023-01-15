@@ -8,10 +8,10 @@ const AboutCard = () => {
             
             {/* cards */}
 
-            <div className="lg:flex gap-8 lg:px-0 px-4">
+            <div className="lg:flex gap-5 lg:px-0 px-4">
            
             {/* first card */}
-      <div id="card" class="card  lg:w-96 bg-base-100 shadow-xl">
+      <div id="card" class="card  lg:w-80 bg-base-100 shadow-xl">
         <div class="card-body">
             <div>
             <FontAwesomeIcon className="text-4xl py-2 text-red-500 card-title" icon={faClipboardQuestion}></FontAwesomeIcon>
@@ -25,7 +25,7 @@ const AboutCard = () => {
       </div>
 
         {/* second card */}
-      <div id="card" class="card lg:w-96 bg-base-100 shadow-xl">
+      <div id="card" class="card lg:w-80 bg-base-100 shadow-xl">
         <div class="card-body">
             <div>
             <FontAwesomeIcon className="text-4xl py-2 text-red-500 card-title" icon={faRocket}></FontAwesomeIcon>
@@ -38,7 +38,7 @@ const AboutCard = () => {
       </div>
 
         {/* third card */}
-      <div id="card" class="card lg:w-96 bg-base-100 shadow-xl">
+      <div id="card" class="card lg:w-80 bg-base-100 shadow-xl">
         <div class="card-body">
             <div>
             <FontAwesomeIcon className="text-4xl py-2 text-red-500 card-title" icon={faEyeLowVision}></FontAwesomeIcon>
