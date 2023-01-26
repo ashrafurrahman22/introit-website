@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import img1 from '../../assets/portfolio1-300x300.jpg';
 import img2 from '../../assets/portfolio2-300x300.jpg';
 import img3 from '../../assets/portfolio3-300x300.jpg';
@@ -26,7 +27,7 @@ const Portfolio = () => {
         </div>
 
         <div className='flex justify-center my-10'>
-            <button id='btn' className= 'btn font-medium text-white px-8 py-2'>Explore More</button>
+            <Link to='/services'><button id='btn' className= 'btn font-medium text-white px-8 py-2'>Explore More</button></Link>
         </div>
 
         </div>

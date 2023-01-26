@@ -32,7 +32,7 @@ const ServiceNav = () => {
       <li><Link to="/contact">Contact</Link></li>
     </ul>
   </div>
-  <div class="navbar-end lg:flex hidden pt-5">
+  <div class="navbar-end lg:flex hidden pt-5 px-6">
   <button id='btn' className= 'btn font-medium text-white px-6 uppercase'>
                 Request Quote</button>
   </div>
