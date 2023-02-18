@@ -3,7 +3,7 @@ import '../Styles/Help.css'
 
 const Help = () => {
     return (
-        <div className='lg:w-2/5 my-10 mx-auto font-aleo'>
+        <div className='lg:w-2/5 mb-20 mt-6 mx-auto font-aleo'>
            <div>
            <h2 
            id='headings' 

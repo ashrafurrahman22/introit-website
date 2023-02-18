@@ -10,7 +10,7 @@ const Portfolio = () => {
     return (
         <div>
             {/* portfolio */}
-            <div className='lg:w-2/5 my-10 mx-auto lg:px-0 px-3 font-aleo'>
+            <div className='lg:w-2/5 my-14 mx-auto lg:px-0 px-3 font-aleo'>
            <div>
            <h2 id='headings' className='my-2 font-bold'>Portfolio</h2>
             <p style={{fontFamily:"Aleo", fontSize:"18px"}} className='text-center font-medium text-md'>As an investor, you always want to be diversified. That means having a mix of different types of investments in your portfolio. But what is the best mix? And how do you know when to rebalance your portfolio? In this blog post, we’ll answer those questions and more.</p>
@@ -26,7 +26,7 @@ const Portfolio = () => {
 
         </div>
 
-        <div className='flex justify-center my-10'>
+        <div className='flex justify-center my-12'>
             <Link to='/services'><button id='btn' className= 'btn font-medium text-white px-8 py-2'>Explore More</button></Link>
         </div>
 

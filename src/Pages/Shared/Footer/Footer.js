@@ -3,6 +3,10 @@ import introLogo from '../../../assets/IntroIT-logo.png';
 
 
 const Footer = () => {
+
+    const date = new Date();
+    const year = date.getFullYear();
+
     return (
        <div style={{backgroundColor:"#242A56", fontFamily:"aleo"}}>
 
@@ -43,7 +47,7 @@ const Footer = () => {
         
         <hr className='mb-5' />
     <div className='text-white max-w-7xl mx-auto px-12 pb-8'>
-    <p style={{letterSpacing:"1px"}} >Copyright © 2022 | Powered by Introit Industries Ltd</p>
+    <p style={{letterSpacing:"1px"}} >Copyright © {year} | Powered by Introit Industries Ltd</p>
      </div>
 
        </div>
